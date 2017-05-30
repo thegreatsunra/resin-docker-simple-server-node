@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
   "dependencies": {
+    "aws-iot-device-sdk": "^1.0.14",
     "express": "*"
   }
 }
