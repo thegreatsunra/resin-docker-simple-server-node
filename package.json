@@ -4,6 +4,7 @@
   "description": "A simple Expressjs Web server on resin.io",
   "main": "server.js",
   "scripts": {
+    "aws": "node ./aws.js --host-name=xxxxxxxxxxxxxx.iot.xx-xxxx-x.amazonaws.com --private-key=xxxxxxxxxx-private.pem.key --client-certificate=xxxxxxxxxx-certificate.pem.crt --ca-certificate=xxxxxxxxxx.pem",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
