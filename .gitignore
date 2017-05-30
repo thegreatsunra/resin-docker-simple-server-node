@@ -10,5 +10,5 @@ node_modules/
 #OSX hidden metadata file
 .DS_Store
 
-.crt
-.key
+*.crt
+*.key
