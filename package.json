@@ -1,13 +1,14 @@
 {
-  "name": "simple-server-node",
   "version": "1.0.0",
-  "description": "A simple Expressjs Web server on resin.io",
   "main": "server.js",
   "scripts": {
     "aws": "node ./aws.js --host-name=xxxxxxxxxxxxxx.iot.xx-xxxx-x.amazonaws.com --private-key=xxxxxxxxxx-private.pem.key --client-certificate=xxxxxxxxxx-certificate.pem.crt --ca-certificate=xxxxxxxxxx.pem",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "name": "resin-docker-simple-server-node",
+  "description": "Simple Node server from Resin.io Docker container",
+  "homepage": "https://github.com/thegreatsunra/resin-docker-simple-server-node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/resin-io-projects/simple-server-node.git"
@@ -20,10 +21,6 @@
   ],
   "author": "Shaun Mulligan <shaun@resin.io>",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/resin-io-projects/simple-server-node/issues"
-  },
-  "homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
   "dependencies": {
     "aws-iot-device-sdk": "^1.0.14",
     "express": "*"
